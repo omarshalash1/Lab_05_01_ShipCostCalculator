@@ -4,7 +4,7 @@ public class main {
    public static void main(String[] args) {
       Scanner scan = new Scanner(System.in);
       System.out.print("Enter the price of the item: $");
-      double itemPrice = 700;
+      double itemPrice = 100;
       double shippingCost;
       if (itemPrice >= 100) {
          shippingCost = 0;
